@@ -1,0 +1,192 @@
+﻿<%@ Master Language="VB" CodeFile="MasterPage.master.vb" Inherits="Main" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>Untitled Page</title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server" style="margin: 0; padding: 0">
+    <table width="100%">
+        
+        <tr>
+            <td width="5%" bgcolor="#99CCFF">
+            </td>
+            <td width="90%">
+                <table width="100%" cellpadding="0" cellspacing="0"  >
+                    <tr >
+                        <td width="20%" >
+                            &nbsp;<img src="images/national-human-rights-commission-logo-731390.png" style="height: 187px;
+                                width: 213px;" /></td>
+                        <td width="60%" align ="center"  >
+                        <img src="images/6.png" />
+                        </td>
+                        <td width="20%" align= "right" valign ="top"  >
+                                               
+                            <asp:ImageButton ID="ImageButton2" runat="server" Height="28px" 
+                                ImageUrl="~/images/logout.gif" />
+                            <br />
+                            <br />
+                            <br />
+                            <br />
+                            <br />
+                            <br />
+                            <br />
+                            </td>
+                    </tr>
+                    <tr>
+                        <td colspan="3" style="background-color: Navy; color: White; font-weight: bold; height: 30px; font-size : xx-large  " align ="right" >
+                            &nbsp;<marquee style="width: 95%"> CONSUMER FORUM WEB APPLICATION</marquee><asp:ImageButton ID="ImageButton3" runat="server" Height="34px" 
+                                ImageUrl="~/images/i_home.gif" Width="44px" />
+                   
+                         
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="3" style="height: 100%" valign="top">
+                            <table width =100%>
+                                <tr>
+                                    <td valign="top">
+                                        <asp:TreeView ID="TreeView1" runat="server" Style="font-size: small; font-weight: 400;
+                                            font-family: Arial, Helvetica, sans-serif; color: #FFFFFF;" ExpandDepth="0" ImageSet="Contacts"
+                                            ForeColor="#FF5050" NodeIndent="10" Font-Bold="True" Font-Names="Monotype Corsiva">
+                                            <ParentNodeStyle Font-Bold="True" ForeColor="#5555DD" />
+                                            <HoverNodeStyle Font-Underline="False" />
+                                            <SelectedNodeStyle Font-Underline="True" HorizontalPadding="0px" VerticalPadding="0px" />
+                                            <Nodes>
+                                                <asp:TreeNode Text="Filing" Value="Filing">
+                                                    <asp:TreeNode Text="New Case Entry" Value="New Node" NavigateUrl="~/filling.aspx">
+                                                    </asp:TreeNode>
+                                                </asp:TreeNode>
+                                                <asp:TreeNode Text="Dealind Assistance" Value="Dealind Assistance">
+                                                    <asp:TreeNode Text="Case Detail" Value="Case Detail" NavigateUrl="~/casedetail1.aspx">
+                                                    </asp:TreeNode>
+                                                    <asp:TreeNode Text="Cause List" Value="Cause List" NavigateUrl="~/causelist.aspx">
+                                                    </asp:TreeNode>
+                                                    <asp:TreeNode NavigateUrl="~/Isuunotice.aspx" Text="Issue Notice" Value="Issue Notice">
+                                                    </asp:TreeNode>
+                                                    <asp:TreeNode Text="Add More Complainant's" Value="Add More Complainant's" NavigateUrl="~/addmorecop.aspx">
+                                                    </asp:TreeNode>
+                                                    <asp:TreeNode Text="Add More respondent's" Value="Add More respondent's" NavigateUrl="~/Addmoreres.aspx">
+                                                    </asp:TreeNode>
+                                                    <asp:TreeNode Text="Modify Add More Complainant's" Value="Modify Add More Complainant's"
+                                                        NavigateUrl="~/modiftcom.aspx"></asp:TreeNode>
+                                                    <asp:TreeNode Text="Modify Add More Respondent's" Value="Modify Add More Respondent's"
+                                                        NavigateUrl="~/modifyres.aspx"></asp:TreeNode>
+                                                </asp:TreeNode>
+                                                <asp:TreeNode Text="court Room" Value="court Room">
+                                                    <asp:TreeNode Text="Court Room Hearing" Value="New Node" NavigateUrl="~/courtromhearing1.aspx">
+                                                    </asp:TreeNode>
+                                                    <asp:TreeNode Text="Daily Order Entry" Value="New Node" NavigateUrl="~/dailyorderentry1.aspx">
+                                                    </asp:TreeNode>
+                                                    <asp:TreeNode Text="Judgment Enry" Value="New Node" NavigateUrl="~/judgemententry.aspx">
+                                                    </asp:TreeNode>
+                                                    <asp:TreeNode Text="Cause List" Value="Cause List" NavigateUrl="~/causelist.aspx">
+                                                    </asp:TreeNode>
+                                                    <asp:TreeNode Text="Query" Value="Query" NavigateUrl="~/Query.aspx"></asp:TreeNode>
+                                                    <asp:TreeNode Text="Court Room Hearing Modification" Value="Court Room Hearing Modification"
+                                                        NavigateUrl="~/Courtroomhearingmodi1.aspx"></asp:TreeNode>
+                                                </asp:TreeNode>
+                                                <asp:TreeNode Text="Member" Value="Member">
+                                                    <asp:TreeNode Text="Cause List" Value="Cause List" NavigateUrl="~/causelist.aspx">
+                                                    </asp:TreeNode>
+                                                    <asp:TreeNode Text="Search" Value="Search" NavigateUrl="~/Search.aspx"></asp:TreeNode>
+                                                </asp:TreeNode>
+                                                <asp:TreeNode Text="Record Room" Value="Record Room">
+                                                    <asp:TreeNode Text="Pending Case" Value="Pending Case" NavigateUrl="~/pendingcases.aspx">
+                                                    </asp:TreeNode>
+                                                    <asp:TreeNode Text="Dispose Case" Value="Dispose Case" NavigateUrl="~/disposecase1.aspx">
+                                                    </asp:TreeNode>
+                                                    <asp:TreeNode Text="Cheacklist Pending cases" Value="Cheacklist Pending cases" NavigateUrl="~/cheacklistpendingcase.aspx">
+                                                    </asp:TreeNode>
+                                                    <asp:TreeNode Text="Modify Record Room" Value="Modify Record Room" NavigateUrl="~/modifyrecordroom1.aspx">
+                                                    </asp:TreeNode>
+                                                    <asp:TreeNode Text="Record Room Dispose case Reports" Value="Record Room Dispose case Reports">
+                                                    </asp:TreeNode>
+                                                </asp:TreeNode>
+                                                <asp:TreeNode Text="Report" Value="Report">
+                                                    <asp:TreeNode Text="Pending Cases" Value="Pending Cases" 
+                                                        NavigateUrl="~/cheacklistpendingcase.aspx">
+                                                    </asp:TreeNode>
+                                                    <asp:TreeNode Text="Dispose Case Detail" Value="Dispose Case Detail" 
+                                                        NavigateUrl="~/disposecasereport1.aspx">
+                                                    </asp:TreeNode>
+                                                    <asp:TreeNode Text="Case Pending &amp; Status" 
+                                                        Value="Case Pending &amp; Status" NavigateUrl="~/cheacklistpendingcase.aspx">
+                                                    </asp:TreeNode>
+                                                    <asp:TreeNode Text="Judgment Report" Value="Judgment Report" 
+                                                        NavigateUrl="~/Judgementreport1.aspx">
+                                                    </asp:TreeNode>
+                                                    <asp:TreeNode Text="Case Summery Report" Value="Case Summery Report" 
+                                                        NavigateUrl="~/Judgementreport1.aspx">
+                                                    </asp:TreeNode>
+                                                    <asp:TreeNode Text="Stage Wise Pending Case Report" 
+                                                        Value="Stage Wise Pending Case Report" 
+                                                        NavigateUrl="~/satependingcasereport.aspx">
+                                                    </asp:TreeNode>
+                                                </asp:TreeNode>
+                                                <asp:TreeNode Text="Administrator" Value="Administrator">
+                                                    <asp:TreeNode Text="Enter Case Entry" Value="Enter Case Entry" NavigateUrl="~/entercasecat.aspx">
+                                                    </asp:TreeNode>
+                                                    <asp:TreeNode Text="Enter Sub Category " Value="Enter Sub Category " NavigateUrl="~/entersubca.aspx">
+                                                    </asp:TreeNode>
+                                                    <asp:TreeNode Text="Enter Sub Sub Category" Value="Enter Sub Sub Category" NavigateUrl="~/enterssubcat.aspx">
+                                                    </asp:TreeNode>
+                                                    <asp:TreeNode Text="Enter Sub Sub Sub Category" Value="Enter Sub Sub Sub Category"
+                                                        NavigateUrl="~/entersssubcat.aspx"></asp:TreeNode>
+                                                    <asp:TreeNode Text="Add User" Value="Add User" NavigateUrl="~/adduser.aspx"></asp:TreeNode>
+                                                    <asp:TreeNode Text="Add Member/President" Value="Add Member/President" NavigateUrl="~/addmember.aspx">
+                                                    </asp:TreeNode>
+                                                    <asp:TreeNode Text="Change Password" Value="Change Password" NavigateUrl="~/changepass.aspx">
+                                                    </asp:TreeNode>
+                                                    <asp:TreeNode Text="Assign Modules" Value="Assign Modules" NavigateUrl="~/Assignmodul.aspx">
+                                                    </asp:TreeNode>
+                                                    <asp:TreeNode Text="Add Notice" Value="Add Notice" NavigateUrl="~/addnotice.aspx">
+                                                    </asp:TreeNode>
+                                                    <asp:TreeNode Text="Edit Notice" Value="Edit Notice" NavigateUrl="~/editnotice.aspx">
+                                                    </asp:TreeNode>
+                                                    <asp:TreeNode Text="Delete Notice" Value="Delete Notice" 
+                                                        NavigateUrl="~/deletenotice.aspx"></asp:TreeNode>
+                                                    <asp:TreeNode Text="Edit User" Value="Edit User" NavigateUrl="~/edit user.aspx">
+                                                    </asp:TreeNode>
+                                                    <asp:TreeNode Text="Edit Member" Value="Edit Member" 
+                                                        NavigateUrl="~/editmember.aspx">
+                                                    </asp:TreeNode>
+                                                    <asp:TreeNode Text="Delete User" Value="Delete User" NavigateUrl="~/delete user.aspx">
+                                                    </asp:TreeNode>
+                                                    <asp:TreeNode Text="Delete Member" Value="Delete Member" NavigateUrl="~/deletemember.aspx">
+                                                    </asp:TreeNode>
+                                                    <asp:TreeNode Text="User List" Value="User List" NavigateUrl="~/uesrlist.aspx"></asp:TreeNode>
+                                                </asp:TreeNode>
+                                            </Nodes>
+                                            <NodeStyle Font-Names="Verdana" Font-Size="8pt" ForeColor="Black" HorizontalPadding="5px"
+                                                NodeSpacing="0px" VerticalPadding="0px" />
+                                        </asp:TreeView>
+                                    </td>
+                                    <td width="1%" style="background-color: Gray; height: 100%;">
+                                        &nbsp;
+                                    </td>
+                                    <td background="images/23Layer8.gif">
+                                        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                                        </asp:ContentPlaceHolder>
+                                    </td>
+                                   
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="3" bgcolor="#99CCFF" >
+                            &nbsp;&nbsp;</td>
+                    </tr>
+                </table>
+            </td>
+            <td width="5%" bgcolor="#99CCFF">
+            </td>
+        </tr>
+    </table>
+    </form>
+</body>
+</html>

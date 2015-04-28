@@ -1,0 +1,182 @@
+﻿<%@ Master Language="VB" CodeFile="MasterPage2.master.vb" Inherits="MasterPage2" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>Untitled Page</title>
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <style type="text/css">
+        .style5
+        {
+            width: 39px;
+            height: 63px;
+        }
+        .style6
+        {
+            height: 63px;
+        }
+        .style7
+        {
+            height: 63px;
+            width: 318px;
+        }
+        .style8
+        {
+            height: 196px;
+            width: 140px;
+        }
+        .style9
+        {
+            height: 429px;
+            width: 342px;
+        }
+    </style>
+</head>
+<body>
+    <form id="form1" runat="server" style="margin :0;padding :0; height: 1454px;">
+  <table width=100% cellpadding =0 cellspacing =0 height =100% 
+        background="main%20images/img4.jpg">
+  <tr height =15%>
+  <td width =15% align =left >
+      <img src="main%20images/goi_logo.jpg" class="style8" />
+  </td>
+  <td width =70% align ="center" >
+      <img src="../images/3.png" style="width: 347px; height: 106px" /></td>
+  <td width =15% align ="right" >
+      <img src="main%20images/goi_logo.jpg" class="style8" /></td>
+  </tr>
+   <tr height =5%>
+   <td colspan =3 
+           
+           style="border: medium solid #FFFFFF; " 
+           bordercolor="Black">
+       <table width=100% height =100%>
+           <tr>
+               <td width =30% align ="center" >
+                   <asp:LinkButton ID="LinkButton1" runat="server" 
+                       PostBackUrl="~/Main web/state wise causelist.aspx">District Wise CauseList</asp:LinkButton>
+               </td>
+             <td>
+                 <img src="main%20images/index_r3_c3.gif" />
+             </td>
+               
+               <td width =25% align ="center" >
+                   <asp:LinkButton ID="LinkButton2" runat="server" 
+                       PostBackUrl="~/Main web/Judgement Search.aspx">Judgement Search</asp:LinkButton>
+               </td>
+                <td>
+                 <img src="main%20images/index_r3_c3.gif" />
+             </td>
+               <td width =32% align ="center" >
+                   <asp:LinkButton ID="LinkButton3" runat="server" 
+                       PostBackUrl="~/Main web/LOGIN.aspx">Confonate Web Project</asp:LinkButton>
+               </td>
+                <td>
+                 <img src="main%20images/index_r3_c3.gif" />
+             </td>
+               <td width =13% valign= "top"  align="center"  > 
+                   <asp:ImageButton ID="ImageButton1" runat="server" 
+                       ImageUrl="~/Main web/main images/i_home.gif" Height="39px" Width="36px" 
+                       PostBackUrl="~/Main web/home.aspx" />
+                          <br />
+                   <asp:Label ID="Label1" runat="server" Text="Home" SkinID="l1" ></asp:Label>
+                   </td>
+           </tr>
+       </table>
+       </td>
+  </tr>
+  <tr height=70%>
+ <td colspan=3>
+ <table width =100% cellpadding =0 cellspacing =0 height =100%>
+ <tr height =100%>
+ <td width =10%>
+     <img src="main%20images/i1.PNG" />
+     <img src="main%20images/i2.PNG" />
+     <img src="main%20images/i3.PNG" />
+     <img src="main%20images/i4.PNG" />
+     <img src="main%20images/i5.PNG" />
+ </td>
+ <td width =3% background="main%20images/img4.jpg"></td>
+ <td width =57% bgcolor="#FFFFDF">
+        <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+
+    <td width =3% background="main%20images/img4.jpg"></td>
+ </td>
+ <td width =30% valign ="top"   > 
+     <img src="main%20images/India_states_and_union_territories_map.jpg" 
+         class="style9" />
+     <br />
+     <br />
+     <br />
+
+     <table style="width:100%; height: 312px;">
+         <tr>
+             <td class="style5">
+                 <img src="main%20images/imageArrow3.jpg" />
+                 </td>
+             <td class="style7">
+                 <asp:LinkButton ID="LinkButton4" runat="server" 
+                     PostBackUrl="~/Main web/clist1.aspx">Daily CauseList</asp:LinkButton>
+             </td>
+             <td class="style6">
+                 </td>
+             <td class="style6">
+                 &nbsp;</td>
+         </tr>
+         <tr>
+             <td class="style5">
+                 <img src="main%20images/imageArrow3.jpg" /></td>
+             <td class="style7">
+                 <asp:LinkButton ID="LinkButton5" runat="server" 
+                     PostBackUrl="~/Main web/Judgement Search.aspx">Judgement Search</asp:LinkButton>
+             </td>
+             <td class="style6">
+                 </td>
+             <td class="style6">
+                 &nbsp;</td>
+         </tr>
+         <tr>
+             <td class="style5">
+                 <img src="main%20images/imageArrow3.jpg" /></td>
+             <td class="style7">
+                 <asp:LinkButton ID="LinkButton6" runat="server" 
+                     PostBackUrl="~/Main web/csatatus1.aspx">Case Status</asp:LinkButton>
+             </td>
+             <td class="style6">
+                 </td>
+             <td class="style6">
+                 &nbsp;</td>
+         </tr>
+     </table>
+                              <br />
+                              <br />
+                              <br />
+                              <br />
+                              <br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                              <asp:ImageButton ID="ImageButton2" runat="server" Height="76px" 
+                                  ImageUrl="~/Main web/main images/f.jpg" Width="183px" />
+ </td>
+ </tr>
+ </table>
+ 
+ </td> 
+  </tr>
+  <tr height =10%>
+  <td colspan=3 
+          style="background-color: #0099FF;"  align ="right" >
+      &nbsp;</td>
+  </tr>
+  
+  
+  
+  
+  </table>
+
+    </form>
+</body>
+</html>

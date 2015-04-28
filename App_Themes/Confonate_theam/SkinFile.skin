@@ -1,0 +1,27 @@
+﻿<%--
+Default skin template. The following skins are provided as examples only.
+
+1. Named control skin. The SkinId should be uniquely defined because
+   duplicate SkinId's per control type are not allowed in the same theme.
+
+<asp:GridView runat="server" SkinId="gridviewSkin" BackColor="White" >
+   <AlternatingRowStyle BackColor="Blue" />
+</asp:GridView>
+
+2. Default skin. The SkinId is not defined. Only one default 
+   control skin per control type is allowed in the same theme.
+--%>
+
+<asp:Label runat ="server" CssClass ="lbl"> </asp:Label>
+<asp:Label runat ="server" CssClass ="mainlbl" SkinID ="main"></asp:Label>
+<asp:DropDownList runat ="server" CssClass ="dd"></asp:DropDownList>
+<asp:Label runat ="server" CssClass ="main1lbl" SkinID ="main1"></asp:Label>
+<asp:LinkButton runat ="server" CssClass ="lnkb"></asp:LinkButton>
+<asp:Button runat ="server" CssClass ="btn" />
+<asp:TextBox runat ="server" CssClass ="mltext" SkinID ="ml"></asp:TextBox>
+<asp:TextBox runat ="server" CssClass="mlstext" SkinID ="mls"></asp:TextBox>
+<asp:TextBox runat ="server" CssClass ="textara" SkinID ="area"></asp:TextBox>
+<asp:TreeView runat ="server" HoverNodeStyle-ForeColor =Tomato  Font-Bold =true    ></asp:TreeView>
+<asp:Label runat ="server" ForeColor ="White" SkinID="l1" Font-Underline =true ></asp:Label>
+<asp:TextBox runat ="server" CssClass ="text"></asp:TextBox>
+<asp:Label runat ="server" CssClass ="mlbl" SkinID ="m"></asp:Label>

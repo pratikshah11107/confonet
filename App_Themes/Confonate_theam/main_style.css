@@ -1,0 +1,11 @@
+﻿.text{height:23px; width :140px; font-family :Arial ; border-color :  Black ;color : Black; font-size :large; background-color:White   }
+.lbl{ font-family : Arial   ; color :Black;font-size : medium ; font-weight :bold }
+.mainlbl{font-size :50px ;font-family:Monotype Corsiva;text-decoration :underline ;color:White  }
+.dd{height:30px; width :147px; font-family :Arial ;background-color : White  ;border-color :White ;color:Black;font-size :  large }
+.main1lbl{font-family : Arial    ; color :Black;font-size : x-large    }
+.lnkb{font-size :xx-large  ;font-weight :bold ; color :  White }
+.btn{font-family :Arial ; background-color : Gray  ; border-color :Black ;border-style :double ; color :White ;font-size : x-large ; height :40px;width:150px }
+.textara{ height:100px;width :500px; font-family :Arial ; background-color : White ; border-color : Black ;color : Black; font-size :large }
+.mlstext{height:50px;width :150px; font-family :Arial ; background-color :  White ; border-color : Black ;color : Black; font-size :large}
+.btn{font-family :Arial ; background-color : Black    ; border-color : White  ;border-style :double ; color :White ;font-size : x-large ; height :40px;width:150px;font-weight :bold  }
+.mlbl{font-size :50px ;font-family:Monotype Corsiva;text-decoration :underline ;color: Black  }

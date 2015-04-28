@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<siteMap xmlns="http://schemas.microsoft.com/AspNet/SiteMap-File-1.0" >
+    <siteMapNode url="" title=""  description="">
+             <siteMapNode url ="" title ="filling"  description ="">
+        <siteMapNode url="filling.aspx" title="New Case Entry"  description="" />
+              </siteMapNode>
+      
+      <siteMapNode url ="" title ="Dealing Assistance"  description ="">
+        <siteMapNode url="casedetail1.aspx" title="Case Detail"  description="" />
+        <siteMapNode url="Isuunotice.aspx" title="Issue Notice"  description="" />
+        <siteMapNode url="addmorecop.aspx" title="Add More Complainant's"  description="" />
+        <siteMapNode url="Addmoreres.aspx" title="Add More Respondent's"  description="" />
+        <siteMapNode url="modiftcom.aspx" title="Modify Add More Complainant's"  description="" />
+        <siteMapNode url="modifyres.aspx" title="Modify Add More Respondent's"  description="" />
+
+      </siteMapNode>
+      <siteMapNode url ="" title ="Court Room"  description ="">
+        <siteMapNode url="courtromhearing1.aspx" title="Court Room Hearing"  description="" />
+        <siteMapNode url="dailyorderentry1.aspx" title="Daily Order Entry"  description="" />
+        <siteMapNode url="judgemententry.aspx" title="Judgment Entry"  description="" />
+        <siteMapNode url="causlistreport.aspx" title="Cause List"  description="" />
+        <siteMapNode url="Query.aspx" title="Query"  description="" />
+        <siteMapNode url="Courtroomhearingmodi1.aspx" title="Modify Court Room Hearing"  description="" />
+
+      </siteMapNode>
+      <siteMapNode url ="" title ="Member"  description ="">
+        <!--<siteMapNode url="causlistreport.aspx" title="Cause List"  description="" />-->
+        <siteMapNode url="Search.aspx" title="Search"  description="" />
+
+      </siteMapNode>
+      <siteMapNode url ="" title ="Record Room"  description ="">
+        <siteMapNode url="pendingcases.aspx" title="Pending Case"  description="" />
+        <siteMapNode url="disposecase1.aspx" title="Dispose Case"  description="" />
+        <siteMapNode url="cheacklistpendingcase.aspx" title="Cheaklist Pending Case"  description="" />
+        <siteMapNode url="modifyrecordroom1.aspx" title="Modify Pending Case"  description="" />
+
+      </siteMapNode>
+      <siteMapNode url ="" title ="Report"  description ="">
+        <!--<siteMapNode url="cheacklistpendingcase.aspx" title="Pending case Report"  description="" />-->
+        <siteMapNode url="disposecasereport1.aspx" title="Dispose Case Report"  description="" />
+                <!--<siteMapNode url="cheacklistpendingcase.aspx" title="Case Pending and status Report"  description="" />-->
+        <siteMapNode url="Judgementreport1.aspx" title="Judgment Report"  description="" />
+        <siteMapNode url="statependingcasereport1.aspx" title="Statewise Pending Report"  description="" />
+      </siteMapNode>
+      <siteMapNode url ="" title ="Administrator"  description ="">
+        <siteMapNode url="entercasecat.aspx" title="Enter Case Category"  description="" />
+        <siteMapNode url="entersubca.aspx" title="Enter Case_sub Category"  description="" />
+        <siteMapNode url="enterssubcat.aspx" title="Enter Case_sub_sub Category"  description="" />
+        <siteMapNode url="entersssubcat.aspx" title="Enter Case_sub_sub_sub Category"  description="" />
+        <siteMapNode url="adduser.aspx" title="Add Uesr"  description="" />
+        <siteMapNode url="addmember.aspx" title="Add Member"  description="" />
+        <siteMapNode url="edit user.aspx" title="Edit User"  description="" />
+        <siteMapNode url="editmember.aspx" title="Edit Member"  description="" />
+        <siteMapNode url="deletemember.aspx" title="Delete Member"  description="" />
+        <siteMapNode url="delete user.aspx" title="Delete User"  description="" />
+        
+        <siteMapNode url="addnotice.aspx" title="Add Notice"  description="" />
+        <siteMapNode url="editnotice.aspx" title="Edit Notice"  description="" />
+        <siteMapNode url="deletenotice.aspx" title="Delete Notice"  description="" />
+        <siteMapNode url="" title="Change Password"  description="" />
+
+
+      </siteMapNode>
+    </siteMapNode>
+  
+ 
+  
+</siteMap>
